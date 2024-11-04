@@ -24,6 +24,7 @@ import Link from 'next/link';
 import Questions from '../components/Questions';
 import { useEffect } from 'react'
 import { usePathname, useSearchParams } from 'next/navigation'
+import { Tag } from 'lucide-react';
 
 export default function Home() {
   const [day, setDay] = useState('sameDay');
@@ -86,6 +87,11 @@ export default function Home() {
       </Head>
 
       <main className="w-full h-full bg-person-primary">
+        {coupon && (
+          <div className="bg-yellow-400 flex items-center justify-center p-4">
+            <Tag size={18} className="mr-2" /> 10% de desconto com o cupom <span className="ml-1 font-ton font-semibold bg-white px-2 py-1 rounded-lg">{coupon}</span>
+          </div>
+        )}
         <Superior />
         <div>
           <Capa url={url} referrer={referrer} coupon={coupon} />

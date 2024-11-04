@@ -4,7 +4,7 @@ import Question from "./questions";
 
 export default function Questions() {
   return (
-    <section id="planos" className="py-10 flex flex-col gap-4 justify-center items-center md:items-stretch lg:items-center bg-ton-gray2">
+    <section id="planos" className="py-10 flex flex-col gap-4 justify-center items-center md:items-stretch lg:items-center bg-person-tertiary">
       <div className="w-full max-w-[1080px]">
         <div className="flex flex-col gap-4 md:gap-8 items-center">
           <Title

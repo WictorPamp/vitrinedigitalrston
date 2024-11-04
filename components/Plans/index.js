@@ -17,7 +17,7 @@ export default function Plans({ day, setDay, selectedPlan, setSelectedPlan, plan
         </div>
       </div>
       <div className="text-person-secondary flex flex-col gap-0 px-5">
-        <p className="text-center">Confira as <a className="underline text-ton-300" href="https://www.ton.com.br/planos-e-taxas/?referrer=1E2EC3CE-6F5F-485F-A96B-1C5918F667A7&utm_medium=invite_share&utm_source=revendedor">taxas de todos os planos</a>.</p>
+        <p className="text-center">Confira as <a className="underline text-ton-100" href="https://www.ton.com.br/planos-e-taxas/?referrer=1E2EC3CE-6F5F-485F-A96B-1C5918F667A7&utm_medium=invite_share&utm_source=revendedor">taxas de todos os planos</a>.</p>
         <p className="text-center">Taxa 0% no Pix nos primeiros 30 dias após a primeira venda com Pix na maquininha.</p>
       </div>
     </section>

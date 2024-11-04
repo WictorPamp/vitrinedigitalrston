@@ -20,7 +20,9 @@ module.exports = {
         person: {
           primary: '#1f252a',
           secondary: '#ffffff',
-          tertiary: '#2a3239'
+          tertiary: '#2a3239',
+          quaternary: '#313c45',
+          quinternary: '#0e9f0e'
         }
       },
       fontFamily: {

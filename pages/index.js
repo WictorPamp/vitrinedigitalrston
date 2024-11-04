@@ -32,7 +32,8 @@ export default function Home() {
   const [url, setUrl] = useState('https://ton.admanager.com.br');
   const referrer = false;
   const coupon = 'RAFAELALOPES10';
-  const tel = 5511959525314;
+  const percentcoupon = 10;
+  const tel = 5511984407266;
 
   const flags = {
     americanExpress,
@@ -99,7 +100,7 @@ export default function Home() {
         </div>
         <Benefits />
         <Plans day={day} setDay={setDay} selectedPlan={selectedPlan} setSelectedPlan={setSelectedPlan} plans={plans} />
-        <Machines url={url} referrer={referrer} coupon={coupon} day={day} setDay={setDay} selectedPlan={selectedPlan} setSelectedPlan={setSelectedPlan} plans={plans} machines={machines} prices={prices} />
+        <Machines percentcoupon={percentcoupon} url={url} referrer={referrer} coupon={coupon} day={day} setDay={setDay} selectedPlan={selectedPlan} setSelectedPlan={setSelectedPlan} plans={plans} machines={machines} prices={prices} />
         <Calculator plans={taxCalculator} />
         <div className="py-10 mt-8 flex flex-col justify-center items-center">
           <Title title="Aceite as principais formas de pagamento" />

@@ -1,7 +1,7 @@
 import { Truck, Smartphone, Nfc, MessageSquare, LayoutPanelLeft, Wifi, ReceiptText, QrCode, BatteryCharging, Pointer } from 'lucide-react';
 import Image from 'next/image'
 
-export default function Machine({ url, machine, values, prices, plan, referrer, coupon, day }) {
+export default function Machine({ url, machine, values, prices, plan, referrer, coupon, day, percentcoupon }) {
   const currency = (value) => {
     return new Intl.NumberFormat('pt-BR', {
       style: 'currency',
@@ -22,10 +22,10 @@ export default function Machine({ url, machine, values, prices, plan, referrer, 
     };
   };
 
-  const parcel = customPrice(prices.parcel);
+  const parcel = customPrice(prices.parcel - (prices.parcel * (percentcoupon / 100)));
   const link = `https://www.ton.com.br/checkout/cart/?${referrer ? `referrer=${referrer}` : ''}${coupon ? `coupon=${coupon}` : ''}&utm_medium=invite_share&utm_source=revendedor&userTag=${plan.userTag}&productId=${plan.product + values.id}&userAnticipation=${day === 'sameDay' ? 0 : 1}`;
   return (
-    <div className="text-person-secondary shadow shadow-lg my-4 lg:my-0 max-w-[308px]">
+    <div className="text-person-secondary bg-person-primary p-4 rounded-lg shadow shadow-lg my-4 lg:my-0 max-w-[308px]">
       <div className="flex items-end mr-4 ml-4 rounded rounded-b-none">
         <div className="mb-4">
           <Image
@@ -61,7 +61,7 @@ export default function Machine({ url, machine, values, prices, plan, referrer, 
           <div className="flex gap-7">
             <div className="">
               <p className="text-sm"><s>{currency(prices.current)}</s></p>
-              <p className="font-bold text-ton-200 font-ton text-xl">{currency(prices.promotion)}</p>
+              <p className="font-bold text-ton-200 font-ton text-xl">{currency(prices.promotion - (prices.promotion * (percentcoupon / 100)))}</p>
               <p className="text-sm">à vista ou</p>
             </div>
             <div className="flex gap-0 justify-end my-auto ml-auto font-ton font-bold text-ton-200">

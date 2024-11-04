@@ -88,7 +88,7 @@ export default function Home() {
 
       <main className="w-full h-full bg-person-primary">
         {coupon && (
-          <div className="bg-yellow-400 flex items-center justify-center p-4">
+          <div className="bg-yellow-400 flex items-center justify-center p-4 font-semibold">
             <Tag size={18} className="mr-2" /> 10% de desconto com o cupom <span className="ml-1 font-ton font-semibold bg-white px-2 py-1 rounded-lg">{coupon}</span>
           </div>
         )}

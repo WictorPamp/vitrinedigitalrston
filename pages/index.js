@@ -220,7 +220,7 @@ export default function Home() {
         </div>
       </footer>
       <div className="bg-ton-gray w-full text-gray-400 text-sm text-center p-10 md:py-4">
-        Declaramos, para todos os fins, que este site é de propriedade exclusiva do AdManager, Parceira oficial da Renda Ton. Ressaltamos que este não é um canal oficial da Ton, cuja página oficial pode ser acessada pelo link: <a className="text-ton-200" href={`https://www.ton.com.br/index.html?referrer=${referrer}&utm_medium=invite_share&utm_source=revendedor`}>www.ton.com.br</a>
+        Declaramos, para todos os fins, que este site é de propriedade exclusiva do AdManager, Parceira oficial da Renda Ton. Ressaltamos que este não é um canal oficial da Ton, cuja página oficial pode ser acessada pelo link: <a className="text-ton-200" href={`https://www.ton.com.br/index.html?${referrer ? `referrer=${referrer}` : ''}${coupon ? `coupon=${coupon}` : ''}&utm_medium=invite_share&utm_source=revendedor`}>www.ton.com.br</a>
       </div>
       <div className="bg-ton-200 p-3 cursor-pointer rounded-full fixed z-10 right-8 bottom-8">
         <a href={`https://api.whatsapp.com/send?phone=${tel}&text=Oi!%20Eu%20gostaria%20de%20pedir%20uma%20maquininha.%20Voc%C3%AA%20pode%20me%20auxiliar?`} target="_BLANK" rel="noreferrer" referrerpolicy="no-referrer-when-downgrade">

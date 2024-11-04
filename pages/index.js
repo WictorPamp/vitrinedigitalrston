@@ -15,7 +15,7 @@ import { americanExpress, applePay, aproximacao, elo, googlePay, hiper, link, ma
 import Calculator from '../components/Calculator';
 import taxCalculator from '../mocks/calculator.json';
 import Different from '../components/Different';
-import logoWhite from '../assets/images/logos/oton1.png'
+import logoWhite from '../assets/images/logos/aton1.png'
 import whats from '../assets/images/whatsapp.png'
 import ibest from '../assets/images/ibest_e97bd89878.webp'
 import ra from '../assets/images/ra1000_96e67fe97d.webp'
@@ -63,7 +63,7 @@ export default function Home() {
         <meta charset="utf-8" />
         <meta name="language" content="pt-BR" />
         <title>Maquininha TON</title>
-        <link type="image/png" rel="icon" href="/oton1.png" />
+        <link type="image/png" rel="icon" href="/aton1.png" />
 
         <meta name="description" content="Ton tem as maquininhas com as menores taxas do Brasil, o TapTon para vender pelo celular e Super Conta digital pra fazer pagamentos, tudo em um único lugar!" />
         <meta name="robots" content="index" />
@@ -72,7 +72,7 @@ export default function Home() {
 
         <meta property="og:type" content="page" />
         <meta property="og:url" content="https://ton.admanage.com.br" />
-        <meta property="og:title" content="Maquininha com taxas a partir de 0,74% - Parceiro Ton" />
+        <meta property="og:title" content="Maquininha com taxas a partir de 0,74% - Parceira Ton" />
         <meta property="og:image" content="/bannerton.png" />
         <meta property="og:description" content="Ton tem as maquininhas com as menores taxas do Brasil, o TapTon para vender pelo celular e Super Conta digital pra fazer pagamentos, tudo em um único lugar!" />
 
@@ -112,7 +112,7 @@ export default function Home() {
         </div>
         <Different />
         <div className="py-10 flex flex-col max-w-[780px] mx-auto justify-center items-center gap-10">
-          <Title title={(<span>Já viu que o Ton é o <span className="text-ton-200">parceiro ideal para quem tá no corre</span>, né? E aí, partiu vender mais?</span>)} />
+          <Title title={(<span>Já viu que o Ton é o <span className="text-ton-200">Parceira ideal para quem tá no corre</span>, né? E aí, partiu vender mais?</span>)} />
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-10 w-full px-10 md:px-0">
             <a className="w-full md:w-64 p-5 cursor-pointer hover:bg-ton-300 hover:text-white transition-colors w-full text-center font-ton text-ton-400 py-3 my-0 md:my-4 rounded-full bg-ton-200 font-bold" href='#planos'>Escolha seu plano</a>
             <a target="_BLANK" rel="noreferrer" referrerpolicy="no-referrer-when-downgrade" className="w-full md:w-64 p-5 cursor-pointer hover:bg-ton-200 hover:text-black shadow border border-ton-200 transition-colors w-full text-center font-ton text-ton-400 py-3 my-0 md:my-4 rounded-full bg-white font-bold" href={`https://api.whatsapp.com/send?phone=${tel}&text=Oi!%20Eu%20gostaria%20de%20pedir%20uma%20maquininha.%20Voc%C3%AA%20pode%20me%20auxiliar?`}>Peça no Whatsapp</a>
@@ -126,14 +126,14 @@ export default function Home() {
             <div>
               <Image
                 src={logoWhite}
-                alt="Logo Parceiro Ton"
+                alt="Logo Parceira Ton"
                 width={54}
               />
             </div>
             <div className="items-end">
               <Image
                 src={whats}
-                alt="Logo Parceiro Ton"
+                alt="Logo Parceira Ton"
                 width={30}
               />
             </div>
@@ -213,7 +213,7 @@ export default function Home() {
         </div>
       </footer>
       <div className="bg-ton-gray w-full text-gray-400 text-sm text-center p-10 md:py-4">
-        Declaramos, para todos os fins, que este site é de propriedade exclusiva do AdManager, parceiro oficial da Renda Ton. Ressaltamos que este não é um canal oficial da Ton, cuja página oficial pode ser acessada pelo link: <a className="text-ton-200" href={`https://www.ton.com.br/index.html?referrer=${referrer}&utm_medium=invite_share&utm_source=revendedor`}>www.ton.com.br</a>
+        Declaramos, para todos os fins, que este site é de propriedade exclusiva do AdManager, Parceira oficial da Renda Ton. Ressaltamos que este não é um canal oficial da Ton, cuja página oficial pode ser acessada pelo link: <a className="text-ton-200" href={`https://www.ton.com.br/index.html?referrer=${referrer}&utm_medium=invite_share&utm_source=revendedor`}>www.ton.com.br</a>
       </div>
       <div className="bg-ton-200 p-3 cursor-pointer rounded-full fixed z-10 right-8 bottom-8">
         <a href={`https://api.whatsapp.com/send?phone=${tel}&text=Oi!%20Eu%20gostaria%20de%20pedir%20uma%20maquininha.%20Voc%C3%AA%20pode%20me%20auxiliar?`} target="_BLANK" rel="noreferrer" referrerpolicy="no-referrer-when-downgrade">

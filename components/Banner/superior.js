@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import logo from '../../assets/images/logos/oton3.png';
+import logo from '../../assets/images/logos/aton3.png';
 import Image from 'next/image'
 
 export default function Superior() {

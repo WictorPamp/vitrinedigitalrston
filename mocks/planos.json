@@ -7,7 +7,7 @@
     "background": "white",
     "footerBackground": "ton-gray2",
     "borderColor": "ton-gray2",
-    "color": "ton-100",
+    "color": "person-primary",
     "footer": "Taxas promocionais válidas durante 30 dias ou até vender 5 mil reais.",
     "oneDay": {
       "debit": 0.74,
@@ -25,7 +25,7 @@
     "product": "TONULTRA_",
     "title": "Ton Ultra",
     "description": "Independentemente das vendas, taxa ultra baixa",
-    "background": "person-secondary",
+    "background": "person-primary",
     "footer": "Sem mínimo de vendas",
     "footerBackground": "ton-gray2",
     "borderColor": "ton-gray2",

@@ -11,7 +11,7 @@ export default function Superior() {
   });
 
   useEffect(() => {
-    const targetDate = new Date("2024-11-06T00:00:00").getTime();
+    const targetDate = new Date("2024-11-13T00:00:00").getTime();
 
     const updateCountdown = () => {
       const now = new Date().getTime();

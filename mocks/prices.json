@@ -2,40 +2,40 @@
   "tonPro": {
     "t1": {
       "current": 56.57,
-      "promotion": 39.60,
-      "parcel": 3.30
+      "promotion": 39.6,
+      "parcel": 3.3
     },
     "t3": {
-      "current": 474.00,
-      "promotion": 189.60,
-      "parcel": 15.80
+      "current": 474.0,
+      "promotion": 226.8,
+      "parcel": 18.9
     },
     "t3Smart": {
-      "current": 756.00,
-      "promotion": 226.80,
-      "parcel": 18.90
+      "current": 756.0,
+      "promotion": 262.8,
+      "parcel": 21.9
     },
     "t2": {
       "current": 106.29,
-      "promotion": 74.40,
-      "parcel": 6.20
+      "promotion": 74.4,
+      "parcel": 6.2
     }
   },
   "tonUltra": {
     "t1": {
       "current": 109.71,
-      "promotion": 76.80,
-      "parcel": 6.40
+      "promotion": 76.8,
+      "parcel": 6.4
     },
     "t3": {
       "current": 558,
-      "promotion": 334.80,
-      "parcel": 27.90
+      "promotion": 334.8,
+      "parcel": 27.9
     },
     "t3Smart": {
-      "current": 717.60,
-      "promotion": 358.80,
-      "parcel": 29.90
+      "current": 717.6,
+      "promotion": 358.8,
+      "parcel": 29.9
     },
     "t2": {
       "current": 192,
